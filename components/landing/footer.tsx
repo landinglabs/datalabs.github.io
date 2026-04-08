@@ -11,14 +11,6 @@ const FOOTER_LINKS = [
         ],
     },
     {
-        title: "Empresa",
-        links: [
-            { label: "Sobre", href: "#" },
-            { label: "Blog", href: "#" },
-            { label: "Carreiras", href: "#" },
-        ],
-    },
-    {
         title: "Contato",
         links: [
             { label: "contato@datalabs.com.br", href: "mailto:contato@datalabs.com.br" },
@@ -31,9 +23,9 @@ export function Footer() {
     return (
         <footer className="border-t border-border/50 bg-card/30">
             <div className="mx-auto max-w-6xl px-6 py-12">
-                <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-4">
+                <div className="grid place-items-center gap-8 text-center sm:grid-cols-2 md:grid-cols-3">
                     <div className="sm:col-span-2 md:col-span-1">
-                        <a href="#" className="flex items-center gap-2 text-lg font-bold tracking-tight">
+                        <a href="#" className="flex items-center justify-center gap-2 text-lg font-bold tracking-tight">
                             <BarChart3 className="size-5 text-primary" />
                             <span>DataLabs</span>
                         </a>
